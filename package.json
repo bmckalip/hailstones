@@ -1,0 +1,17 @@
+{
+  "name": "hailstones",
+  "version": "1.0.0",
+  "description": "inspiration for this program:\r https://www.youtube.com/watch?v=094y1Z2wpJg",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "module": "commonjs",
+  "dependencies": {
+    "yargs": "^17.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node --experimental-modules --es-module-specifier-resolution=node index.js --start=1000 --end=2000 depth=10 verbose=true"
+  }
+}

@@ -1,6 +1,6 @@
-const { threeNPlusOne } = require('./threeNPlusOne.js') 
+import threeNPlusOne from './threeNPlusOne';
 
-class Cohort {
+export default class Cohort {
     config = null
     tooDeep = []
     newBestStoppingTimes = []
@@ -62,5 +62,3 @@ class Cohort {
         this.printResult(this.longestStoppingTime);
     }
 }
-
-module.exports = Cohort;

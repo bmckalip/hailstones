@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     threeNPlusOne: (n, depth =-1, handleDeepNumber=()=>{}) => {
         const hailstones = [];
         while(n > 1) {
